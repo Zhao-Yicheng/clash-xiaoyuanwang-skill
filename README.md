@@ -12,6 +12,19 @@
 （同一台后端 Xray）——把节点入口换到可达的邻居 IP，再由内核 `url-test` 周期性
 现场测活、自动选优，实现长期自动容错。
 
+## 安装
+
+作为 agent skill 使用（兼容 Claude Code / Copilot / WorkBuddy 等 skills 目录规范）：
+
+```bash
+git clone https://github.com/Zhao-Yicheng/clash-xiaoyuanwang-skill.git
+# 拷进你的 skills 目录，如：
+cp -r clash-xiaoyuanwang-skill ~/.claude/skills/      # Claude Code
+cp -r clash-xiaoyuanwang-skill ~/.workbuddy/skills/   # WorkBuddy
+```
+
+脚本也可以脱离 skill 直接当命令行工具用。
+
 ## 快速开始
 
 ```bash
