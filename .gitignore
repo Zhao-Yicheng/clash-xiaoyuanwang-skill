@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+scan_result.json
+.test/
+*.bak
+.DS_Store
