@@ -1,4 +1,4 @@
-# clash-cdn-failover
+# clash-xiaoyuanwang-skill
 
 > 破解部分校园网（家宽出口同理）对机场订阅节点 CDN 入口的 /32 单 IP 精确封锁。
 

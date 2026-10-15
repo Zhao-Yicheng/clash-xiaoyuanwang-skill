@@ -1,5 +1,5 @@
 ---
-name: clash-cdn-failover
+name: clash-xiaoyuanwang-skill
 description: Clash Verge / mihomo 节点大面积超时的诊断与修复。用于校园网或家宽出口对机场 CDN 入口做 /32 单 IP 精确封锁的场景(SYN 静默丢包、同 /24 邻居可达、服务器存活、换网络即恢复)。提供封锁判别方法论、全 /24 WebSocket 握手扫描器(HTTP 101 验收)与 Clash Verge 全局扩展脚本模板——换可达 IP + 克隆副本, 由 url-test 自动测活选优。仅当用户明确要求使用本 skill 时加载, 不自动触发。
 agent_created: true
 ---
@@ -7,7 +7,7 @@ agent_created: true
 # Clash CDN 入口封锁诊断与节点复活
 
 > **调度约定**: 本 skill 不自动触发。仅当用户明确要求使用(如指名
-> clash-cdn-failover)时加载执行。
+> clash-xiaoyuanwang-skill)时加载执行。
 
 ## 场景
 
